@@ -3,7 +3,7 @@
 This tool automates the process of cropping a large collection of portrait images into the standard **3:4 aspect ratio**. It is optimized for Google Colab and handles batch processing of JPG and PNG files.
 
 ## Features
-* **Batch Processing:** Automatically loops through folders (e.g., `day_1`, `day_2`).
+* **Batch Processing:** Automatically loops through folders (e.g., `day_1`).
 * **Smart Cropping:** Maintains a 3:4 ratio regardless of the original image dimensions.
 * **Adjustable Focus:** Custom `focus_point_y` parameter to ensure the subject's face is correctly positioned (default set to `0.15` for head-centered crops).
 * **Automatic Cleaning:** Removes "Copy of " prefixes from filenames during the output process.
